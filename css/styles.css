@@ -66,3 +66,17 @@ body {
 #video-play a {
   color: #fff;
 }
+
+#page-header {
+  height: 200px;
+  background-image: url("../img/image1.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.about-img {
+  margin-top: -60px;
+}
