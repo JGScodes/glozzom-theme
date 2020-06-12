@@ -84,7 +84,6 @@
             </div>
           </div>
         </div>
-
       </div>
 
       <a href="#myCarousel" data-slide="prev" class=" carousel-control-prev">
@@ -108,6 +107,12 @@
 
   <script>
     $('#year').text(new Date().getFullYear());
+
+    //Configure Slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
   </script>
 </body>
 
